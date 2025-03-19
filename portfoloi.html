@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Syed Sahil</h1>
+        <p>Web Developer</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I'm a web developer with expertise in HTML & CSS</p>
+        </div>
+        <div class="section">
+    <h2>What I Don't Do</h2>
+    <p>I focus on HTML & CSS-based web development and thumbnail design. I do not work on backend development, JavaScript, or complex web applications.</p>
+</div>
+        
+    </div>
+    <footer>
+        <p>&copy; 2025 Syed Sahil. All rights reserved.</p>
+    </footer>
+</body>
+</html>
